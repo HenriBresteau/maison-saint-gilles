@@ -1,9 +1,11 @@
 import LayoutPage from '@/app/components/layout/LayoutPage';
 
-export default function Home() {
+const page = ({}) => {
   return (
     <LayoutPage>
-      <div className="container mx-auto min-h-screen bg-navy-100 p-4"></div>
+      <div className="flex">From page CONTACT</div>
     </LayoutPage>
   );
-}
+};
+
+export default page;
