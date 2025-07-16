@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import './globals.css';
 
-import { Inter, Montserrat } from "next/font/google";
+import { Inter, Montserrat } from 'next/font/google';
 
 const monsterrat = Montserrat({
   variable: "--font-monsterrat",

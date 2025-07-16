@@ -1,9 +1,10 @@
 import LayoutPage from '@/app/components/layout/LayoutPage';
+import Hero from '@/app/components/sections/Hero';
 
 export default function Home() {
   return (
     <LayoutPage>
-      <div className="container mx-auto min-h-screen bg-navy-100 p-4"></div>
+      <Hero />
     </LayoutPage>
   );
 }
