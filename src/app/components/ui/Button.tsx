@@ -1,6 +1,6 @@
-import { cva, VariantProps } from 'class-variance-authority';
-import { LucideIcon } from 'lucide-react';
-import Link from 'next/link';
+import { cva, VariantProps } from "class-variance-authority";
+import { LucideIcon } from "lucide-react";
+import Link from "next/link";
 
 const buttonVariants = cva(
   "flex w-fit items-center gap-2 rounded-full shadow-lg transition-all duration-300 hover:shadow-xl",
@@ -20,7 +20,7 @@ const buttonVariants = cva(
         small: "px-4 py-2 text-sm",
         medium: "px-6 py-3 text-base",
         large: "px-8 py-4 text-lg",
-        xl: "px-6 py-4 text-lg",
+        xl: "px-5 py-2.5 lg:px-6 lg:py-4 text-base lg:text-lg",
       },
     },
     defaultVariants: {
