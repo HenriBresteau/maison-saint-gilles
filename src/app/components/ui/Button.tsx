@@ -20,7 +20,7 @@ const buttonVariants = cva(
         small: "px-4 py-2 text-sm",
         medium: "px-6 py-3 text-base",
         large: "px-8 py-4 text-lg",
-        xl: "px-5 py-2.5 lg:px-6 lg:py-4 text-base lg:text-lg",
+        xl: "px-3.5 py-2.5 lg:px-5 lg:py-3.5",
       },
     },
     defaultVariants: {
