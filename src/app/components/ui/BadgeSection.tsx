@@ -1,6 +1,6 @@
-import { cva, VariantProps } from "class-variance-authority";
-import { LucideIcon } from "lucide-react";
-import { ReactNode } from "react";
+import { cva, VariantProps } from 'class-variance-authority';
+import { LucideIcon } from 'lucide-react';
+import { ReactNode } from 'react';
 
 const BadgeSectionVariants = cva(
   "inline-flex items-center w-fit gap-2 rounded-full font-medium transition-all duration-300 shadow",
@@ -39,7 +39,7 @@ const BadgeSection = ({
 }: BadgeSectionProps) => {
   return (
     <span className={BadgeSectionVariants({ variant, size, className })}>
-      <div className="rounded-full bg-navy-900 p-2">
+      <div className="rounded-full bg-coral-500 p-2">
         <Icon size={18} className="text-white" />
       </div>
       {children}
