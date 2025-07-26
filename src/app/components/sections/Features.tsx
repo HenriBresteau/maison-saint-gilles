@@ -1,7 +1,7 @@
-import { Bike, ChefHat, LayoutGrid, MapPin, Trees } from "lucide-react";
+import { Bike, ChefHat, LayoutGrid, MapPin, Trees } from 'lucide-react';
 
-import BadgeSection from "@/app/components/ui/BadgeSection";
-import CardFeature from "@/app/components/ui/CardFeature";
+import BadgeSection from '@/app/components/ui/BadgeSection';
+import CardFeature from '@/app/components/ui/CardFeature';
 
 const Features = () => {
   const features = [
@@ -38,7 +38,7 @@ const Features = () => {
             Équipements
           </BadgeSection>
           <h2 className="font-monsterrat max-w-sm text-center text-3xl font-semibold tracking-tight text-navy-900 md:text-4xl">
-            Tous le confort pour vos vacances
+            Tout le confort pour vos vacances
           </h2>
         </div>
       </div>
