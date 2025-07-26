@@ -50,6 +50,10 @@
   --color-slate-800: #1e293b;
   --color-slate-900: #0f172a;
 }
+@theme inline {
+  --font-inter: var(--font-inter);
+  --font-monsterrat: var(--font-monsterrat);
+}
 
 body {
   color: var(--foreground);
